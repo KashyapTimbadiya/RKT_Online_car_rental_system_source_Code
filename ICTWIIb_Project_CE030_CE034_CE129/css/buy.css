@@ -1,0 +1,70 @@
+.container{
+    width: 300px;
+    margin-top: 45px;
+    padding: 20px 0;
+}
+
+.container h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.input{
+    margin: 10px auto;
+}
+
+.fname,
+.lname{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input span{
+    margin-left: 0;
+}
+
+.input .lname{
+    margin-top: 10px;
+}
+
+.input .user2{
+    margin-top: 10px;
+}
+
+.input .gender{
+    font-size: 14px;
+}
+
+.S label,
+.g label{
+    font-size: 14px;
+}
+
+.input .radio{
+    margin-left: 10px;
+}
+
+.state{
+    width: 100%;
+    height: 34px;
+    padding: 0 7px;
+    margin-top: 5px;
+}
+
+.car{
+    width: 100%;
+    height: 34px;
+    padding: 0 7px;
+    margin-top: 5px;
+}
+
+.input .tnc{
+    font-size: 14px;
+}
+
+.btn{
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}

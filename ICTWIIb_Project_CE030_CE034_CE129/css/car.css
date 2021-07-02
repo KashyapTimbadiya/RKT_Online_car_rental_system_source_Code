@@ -1,0 +1,223 @@
+body{
+  box-sizing: border-box;
+}
+
+.main-coin{
+  /* border: 2px solid black; */
+  margin-top: 5%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-coin1{
+  margin-top: 10%;
+}
+.container-1{
+  width: 100%;
+
+}
+
+.box1{
+  display: flex;
+}
+
+.mini1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mini1 img{
+  height: 40vh;
+  border-radius: 15px;
+  width: 55%;
+}
+
+.mini2{
+  width: 100%;
+}
+
+.car-name{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+.car-price{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.lines{
+  margin-top: 1%;
+  font-size: 1.1rem;
+}
+.features{
+  margin-left: 11%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.box2{
+  margin-top: 1%;
+}
+.fea{
+margin-left: 8%;
+}
+.fea li{
+display: inline;
+margin-left: 1%;
+font-size: 1.2rem;
+}
+
+@media (max-width: 1200px) {
+  .car-name{
+    font-size: 1.6rem;
+  }
+  .car-price{
+    font-size: 1.2rem;
+  }
+  .features{
+    font-size: 1.3rem;
+  }
+  .fea li{
+  font-size: 1.1rem;
+  }
+  .mini1 img{
+    height: 40vh;
+    width: 65%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-coin{
+    margin-top: 7%;
+  }
+  .car-name{
+    font-size: 1.8rem;
+  }
+  .car-price{
+    font-size: 1.3rem;
+  }
+  .fea li{
+  font-size: 1rem;
+  }
+  .mini1 img{
+    height: 42vh;
+    width: 70%;
+  }
+}
+@media (max-width: 900px) {
+  .mini1 img{
+    height: 40vh;
+    width: 75%;
+  }
+  .features{
+    margin-left: 8%;
+  }
+  .fea{
+  margin-left: 3%;
+  }
+}
+@media (max-width: 800px) {
+  .mini1 img{
+    height: 38vh;
+    width: 75%;
+  }
+  .car-name{
+    font-size: 1.6rem;
+  }
+  .car-price{
+    font-size: 1.2rem;
+  }
+  .lines span{
+    font-size: 20px;
+  }
+  .lines{
+    font-size: 1rem;
+  }
+  .features{
+    font-size: 1.1rem;
+  }
+  .fea li{
+  font-size: 1rem;
+  }
+  li i{
+    font-size: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .main-coin{
+    margin-top: 10%;
+  }
+  .mini1 img{
+    height: 36vh;
+    width: 85%;
+  }
+  .features{
+    margin-left: 4%;
+  }
+  .fea{
+  margin-left: -1%;
+  }
+  .fea li{
+    margin-left: 0%;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 580px) {
+  .main-coin{
+    margin-top: 35%;
+  }
+  .main-coin1{
+    margin-top: 25%;
+  }
+  .mini1 img{
+    height: 36vh;
+    width: 85%;
+  }
+  .box1{
+    display: inline-block;
+  }
+  .mini1{
+    margin-left: 7%;
+  }
+  .mini2{
+    margin-left: 12%;
+  }
+  .mini1 img{
+    height: 38vh;
+    width: 95%;
+  }
+  .fea li{
+    display: block;
+  }
+  .box2{
+    margin-left: 7%;
+    margin-top: 2%;
+  }
+}
+@media (max-width: 470px) {
+  .main-coin{
+    margin-top: 42%;
+  }
+}
+
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #000000dc;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 8px solid #f9ca24;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+}
+
+.container h2{
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.input{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.icon{
+    padding: 8px 11px;
+}
+
+.fname,
+.lname{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+}
+
+.input span{
+    margin-left: 35px;
+}
+
+.text{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input i{
+    position: absolute;
+    font-size: 18px;
+    border-right: 1px solid black;
+}
+
+.mail{
+    padding: 8px;
+}
+
+.phone{
+    padding: 8px 13px;
+}
+
+.text, .name{
+    border: 1px solid black;
+    outline: none;
+    transition: all .30s ease-in-out;
+}
+
+.text:hover, name:hover{
+    background-color: white;
+}
+
+.text:focus, .name:focus{
+    box-shadow: 0 0 2px 1px #f9ca24;
+    border: 1px solid #f9ca24;
+    background: white;
+}
+
+.state{
+    display: inline-block;
+    width: 63%;
+    height: 35px;
+    padding: 0 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    outline: none;
+    transition: all .20s ease-in-out;
+}
+
+.state:focus{
+    box-shadow: 0 0 2px 1px #f9ca24;
+    border: 1px solid #f9ca24;
+    background: white;
+}
+
+.S label{
+    font-size: 15px;
+}
+
+.payment{
+    display: inline-block;
+    width: 51%;
+    height: 35px;
+    padding: 0 15px;
+    cursor: pointer;
+    border: 1px solid black;
+    outline: none;
+    transition: all .20s ease-in-out;
+}
+
+.payment:focus{
+    box-shadow: 0 0 2px 1px #f9ca24;
+    border: 1px solid #f9ca24;
+    background: white;
+}
+
+.btn{
+    background-color: #f9ca24;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+}

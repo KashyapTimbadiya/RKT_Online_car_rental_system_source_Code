@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap");
+
+body {
+  /* background-size: cover; */
+  /* background-attachment: fixed; */
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
+.logo-font {
+  font-family: "Pacifico", cursive;
+  letter-spacing: 0.11cm;
+}
+.nav-font {
+  font-family: "Mate SC", serif;
+}
+.container1 {
+  background: url(../photos/loginbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 23%; */
+  /* background: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.container3 {
+  margin-top: 9%;
+}
+
+button {
+  height: 35px;
+}
+
+@media (max-width: 620px) {
+  button {
+    height: 25px;
+  }
+}
+
+.comname {
+  font-size: 7rem;
+  text-align: center;
+  color: #f9ca24;
+  font-family: "DM Serif Display", serif;
+  font-weight: bolder;
+  text-shadow: 5px 2px 6px gray;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 2rem;
+  /* color: #f9ca24; */
+  color: #fff;
+  margin-top: -10%;
+}
+
+.card-body {
+  display: flex;
+}
+
+.card-body:hover {
+  background-color: #f1f1f1;
+}
+
+.card-title {
+  color: orange;
+}
+
+.container6 {
+  display: flex;
+  font-size: 1.4rem;
+}
+
+.mini-container2,
+.mini-container1 {
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 50%;
+}
+
+.mini-container1 p,
+.mini-container2 p {
+  margin-left: 1%;
+}
+
+.bor12345 {
+  border: 1px solid black;
+  margin-bottom: 1%;
+}
+
+.color-faq {
+  background-color: #f1f1f1;
+}
+
+.container8 {
+  display: flex;
+  background-color: black;
+  color: #f9ca24;
+}
+
+.about-us {
+  width: 50%;
+  padding: 3%;
+}
+
+.contact-us {
+  background-color: black;
+  width: 50%;
+  padding: 3%;
+}
+
+.social-icon1 {
+  color: blue;
+}
+
+.social-icon2 {
+  color: red;
+}
+
+.social-icon3 {
+  color: palevioletred;
+}
+
+@media (max-width: 950px) {
+  .comname {
+    font-size: 6rem;
+  }
+
+  .container3 {
+    margin-top: 13%;
+  }
+
+  .container6 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  .container6,
+  .container8 {
+    display: block;
+    font-size: 1.1rem;
+  }
+
+  .contact-us,
+  .about-us,
+  .mini-container2,
+  .mini-container1 {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .comname {
+    font-size: 6rem;
+  }
+
+  .container3 {
+    margin-top: 15%;
+  }
+
+  .welcome {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 500px) {
+  .comname {
+    font-size: 5rem;
+  }
+
+  .container3 {
+    margin-top: 23%;
+  }
+
+  .welcome {
+    font-size: 1.3rem;
+  }
+
+  .container6 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  .container3 {
+    margin-top: 30%;
+  }
+
+  .welcome {
+    font-size: 1.1rem;
+  }
+}
+
+.copy {
+  background-color: gray;
+  color: black;
+}
